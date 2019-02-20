@@ -1,0 +1,23 @@
+html{
+  color:#333333;
+  font-size:14px;
+}
+a{
+  color:#333333;
+}
+/* 全局路由跳转效果 */
+.page-enter-active,.page-leave-active{
+  transition:opacity .5s;
+}
+.page-enter, .page-leave-active{
+  opacity: 0;
+}
+/* 自定义页面路由跳转效果 */
+.about-enter-active,.about-leave-active{
+  transition:all .5s;
+  font-size:14px;
+}
+.about-enter, .about-leave-active{
+  opacity: 0;
+  font-size:40px;
+}
